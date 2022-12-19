@@ -1,0 +1,38 @@
+/* 1.Перший рівень */
+blockquote{
+color: green;
+}
+
+/* 2.Другий рівень */
+.holder .list a[href^=https]{
+    color: #f00;
+}
+.list ul li:first-child{
+    color: #ff8d00;  
+}
+.holder .list+p{
+    font-size: 26px;
+}
+.holder .list a[title]{
+    border: 1px solid #067b09;
+}
+
+/* 3.Третій рівень */
+.text-box h3:first-child{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+.text-box div p{
+    color: red;
+}
+.text-box h3[title]{
+    color: blue;
+}
+div.text-box p:nth-last-of-type(2){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}

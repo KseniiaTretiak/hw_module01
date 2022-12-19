@@ -1,0 +1,31 @@
+.first-level{
+    margin: 30px 20px 10px 15px;
+    padding: 10px;
+    border: solid 4px;
+    box-sizing: border-box;
+}
+.second-level{
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: dashed 2px red;
+background: green;
+}
+.level{
+    max-width: 1000px;
+    text-align: justify;
+}
+.logo1{
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 250px;
+    height: 200px;
+   
+}
+.logo2{
+    float: right;
+    margin: 15px 0 15px 15px;
+    width: 150px;
+    height: 100px;
+}

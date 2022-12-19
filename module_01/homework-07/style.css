@@ -1,0 +1,67 @@
+form{
+    max-width: 800px;
+    
+}
+.client-info{
+    text-align: right;
+    clear: both;
+    line-height:25px;
+}
+.client{
+    float: left;
+    padding-right:10px;
+}
+div{
+    float:left;
+}
+#country{
+    width: 177px;
+}
+textarea{
+    resize: none;
+    height: 150px;
+    width: 100%;
+    border: 2px solid black
+}
+
+input:hover{
+    cursor: pointer;
+    border: 2px solid blue;
+}
+#country:hover{
+    cursor: pointer;
+    border: 2px solid blue; 
+}
+
+textarea:hover{
+    cursor: pointer;
+    border: 2px solid blue; 
+}
+
+.green-box{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.boxlab{
+    margin-left: 15px;
+}
+.boxlab::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 10px;
+    border-radius: 20%;
+    border: 1px solid green;
+}
+.green-box:checked + .boxlab::before{
+    content: '';
+  background-size: 100%;
+  background-image: url(check.svg);
+}
+button {
+    margin-top: 20px;
+}
